@@ -1,7 +1,6 @@
 package com.example.recyklerview;
 
 import android.annotation.SuppressLint;
-import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
@@ -10,11 +9,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-public class ViewAdapter extends RecyclerView.Adapter<FoodViewHolder> {
+public class FoodAdapter extends RecyclerView.Adapter<FoodViewHolder> {
 
     private ArrayList<String> foodList;
 
-    public ViewAdapter(ArrayList<String> foodList) {
+    public FoodAdapter(ArrayList<String> foodList) {
         this.foodList = foodList;
     }
 
